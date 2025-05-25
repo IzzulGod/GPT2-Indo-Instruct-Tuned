@@ -186,11 +186,12 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 If you use this model in your research or applications, please cite:
 
 ```bibtex
-@model{gpt2-indo-chat-instruct,
-  title={GPT-2 Indonesian Chat Instruct-Tuned Model},
-  author={IzzulGod},
-  year={2025},
-  url={https://huggingface.co/IzzulGod/GPT2-Indo-chat-tuned}
+@misc{izzulgod2025gpt2indochat,
+  title     = {GPT-2 Indonesian Chat Instruct-Tuned Model},
+  author    = {IzzulGod},
+  year      = {2025},
+  howpublished = {\url{https://huggingface.co/IzzulGod/GPT2-Indo-chat-tuned}},
+  note      = {Fine-tuned version of cahya/gpt2-small-indonesian-522M}
 }
 ```
 ---
