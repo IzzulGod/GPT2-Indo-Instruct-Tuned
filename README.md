@@ -1,6 +1,7 @@
 <a href="https://huggingface.co/IzzulGod/GPT2-Indo-chat-tuned">
   <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-gpt2--indo--chat-yellow" alt="Hugging Face">
 </a>
+[![Colab](https://img.shields.io/badge/Colab-Free%20GPU%20T4-orange?logo=googlecolab)](https://colab.research.google.com/)
 
 # GPT-2 Indonesian Chat Instruct-Tuned Model
 
@@ -15,6 +16,10 @@ This model transforms a base Indonesian GPT-2 text generator into a conversation
 - **Dataset**: `FreedomIntelligence/evol-instruct-indonesian`
 - **Language**: Indonesian (Bahasa Indonesia)
 - **Task**: Conversational AI / Chat Completion
+
+## 🧪 Project Background
+
+This model was fine-tuned as part of my personal learning journey in AI and LLMs. The training was done entirely on Google Colab (free tier, T4 GPU), as an exercise in building Indonesian conversational AI with limited resources.
 
 ## 🚀 Quick Start
 
@@ -196,4 +201,4 @@ If you use this model in your research or applications, please cite:
 ```
 ---
 
-*This model is an experimental project aimed at creating conversational AI capabilities for the Indonesian language community.*
+*Disclaimer: This model was developed as an experimental project for learning purposes. While it performs well on basic tasks, it may have limitations in reasoning and real-world usage.*
