@@ -1,6 +1,4 @@
 [![Model on HuggingFace](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/IzzulGod/gpt2-indo-chat-instruct-tuned)
-[![PyTorch](https://img.shields.io/badge/PyTorch-Enabled-EE4C2C?logo=pytorch)](https://pytorch.org/)
-[![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow?logo=transformers)](https://huggingface.co/transformers/)
  
 # GPT-2 Indonesian Chat Instruct-Tuned Model
 
