@@ -163,7 +163,7 @@ AI:
 
 ## ⚠️ Limitations
 
-- **Knowledge Base**: The base model was trained primarily on Wikipedia data by Cahya, providing general factual knowledge but limited real-world conversational patterns
+- **Knowledge Base**: The base model was trained primarily on Wikipedia data by [Cahya](https://huggingface.co/cahya), providing general factual knowledge but limited real-world conversational patterns
 - **Training Data Scope**: Current fine-tuning focuses on general instruction-following and Q&A rather than natural daily conversations
 - **Conversational Style**: Responses may feel formal or academic due to the Wikipedia-based foundation and instruction-tuned nature
 - **Model Size**: Relatively small (124M parameters), which may limit complex reasoning capabilities
