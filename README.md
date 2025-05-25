@@ -1,12 +1,3 @@
----
-license: mit
-datasets:
-- FreedomIntelligence/evol-instruct-indonesian
-language:
-- id
-base_model:
-- cahya/gpt2-small-indonesian-522M
----
 # GPT-2 Indonesian Chat Instruct-Tuned Model
 
 An Indonesian conversational AI model fine-tuned from `GPT2-Small` using instruction-following techniques to enable chat-like interactions.
