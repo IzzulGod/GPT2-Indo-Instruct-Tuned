@@ -191,7 +191,7 @@ If you use this model in your research or applications, please cite:
 @model{gpt2-indo-chat-instruct,
   title={GPT-2 Indonesian Chat Instruct-Tuned Model},
   author={IzzulGod},
-  year={2024},
+  year={2025},
   url={https://huggingface.co/IzzulGod/gpt2-indo-chat-instruct-tuned}
 }
 ```
