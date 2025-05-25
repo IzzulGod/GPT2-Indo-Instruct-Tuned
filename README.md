@@ -190,7 +190,7 @@ If you use this model in your research or applications, please cite:
   title={GPT-2 Indonesian Chat Instruct-Tuned Model},
   author={IzzulGod},
   year={2025},
-  url={https://huggingface.co/IzzulGod/gpt2-indo-chat-instruct-tuned}
+  url={https://huggingface.co/IzzulGod/GPT2-Indo-chat-tuned}
 }
 ```
 ---
