@@ -1,9 +1,15 @@
+---
+license: mit
+datasets:
+- FreedomIntelligence/evol-instruct-indonesian
+language:
+- id
+base_model:
+- cahya/gpt2-small-indonesian-522M
+---
 # GPT-2 Indonesian Chat Instruct-Tuned Model
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-blue)](https://huggingface.co/IzzulGod/gpt2-indo-chat-instruct-tuned)
-
-An Indonesian conversational AI model fine-tuned from `cahya/gpt2-small-indonesian-522M` using instruction-following techniques to enable chat-like interactions.
+An Indonesian conversational AI model fine-tuned from `GPT2-Small` using instruction-following techniques to enable chat-like interactions.
 
 ## 📋 Model Overview
 
@@ -156,10 +162,10 @@ AI:
 
 ## ⚠️ Limitations
 
-- **Knowledge Base**: The base model was trained primarily on Wikipedia data by cahya, providing general factual knowledge but limited real-world conversational patterns
+- **Knowledge Base**: The base model was trained primarily on Wikipedia data by Cahya, providing general factual knowledge but limited real-world conversational patterns
 - **Training Data Scope**: Current fine-tuning focuses on general instruction-following and Q&A rather than natural daily conversations
 - **Conversational Style**: Responses may feel formal or academic due to the Wikipedia-based foundation and instruction-tuned nature
-- **Model Size**: Relatively small (522M parameters), which may limit complex reasoning capabilities
+- **Model Size**: Relatively small (124M parameters), which may limit complex reasoning capabilities
 - **Factual Accuracy**: Responses are generated based on training data and may not always be factually accurate or up-to-date
 - **Language Optimization**: Best performance is achieved with Indonesian language inputs
 - **Response Consistency**: May occasionally generate repetitive or inconsistent responses
@@ -192,12 +198,6 @@ If you use this model in your research or applications, please cite:
   url={https://huggingface.co/IzzulGod/gpt2-indo-chat-instruct-tuned}
 }
 ```
-
-## 🔗 Related Models
-
-- Base Model: [cahya/gpt2-small-indonesian-522M](https://huggingface.co/cahya/gpt2-small-indonesian-522M)
-- Training Dataset: [FreedomIntelligence/evol-instruct-indonesian](https://huggingface.co/datasets/FreedomIntelligence/evol-instruct-indonesian)
-
 ---
 
 *This model is an experimental project aimed at creating conversational AI capabilities for the Indonesian language community.*
