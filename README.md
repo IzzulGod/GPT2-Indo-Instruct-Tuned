@@ -1,6 +1,4 @@
 [Hugging Face Model](https://huggingface.co/IzzulGod/gpt2-indo-chat-instruct-tuned) [License: MIT](https://opensource.org/licenses/MIT) [Python 3.7+](https://www.python.org/downloads/release/python-370/) [PyTorch](https://pytorch.org/) [Transformers](https://huggingface.co/transformers/)
-
- ---
  
 # GPT-2 Indonesian Chat Instruct-Tuned Model
 
