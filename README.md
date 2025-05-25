@@ -1,4 +1,8 @@
-[Hugging Face Model](https://huggingface.co/IzzulGod/gpt2-indo-chat-instruct-tuned) [License: MIT](https://opensource.org/licenses/MIT) [Python 3.7+](https://www.python.org/downloads/release/python-370/) [PyTorch](https://pytorch.org/) [Transformers](https://huggingface.co/transformers/)
+[![Model on HuggingFace](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/IzzulGod/gpt2-indo-chat-instruct-tuned)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)](https://www.python.org/downloads/release/python-370/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Enabled-EE4C2C?logo=pytorch)](https://pytorch.org/)
+[![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow?logo=transformers)](https://huggingface.co/transformers/)
  
 # GPT-2 Indonesian Chat Instruct-Tuned Model
 
