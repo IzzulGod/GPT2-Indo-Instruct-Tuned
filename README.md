@@ -1,8 +1,8 @@
 <a href="https://huggingface.co/IzzulGod/GPT2-Indo-chat-tuned">
-  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-gpt2--indo--chat-yellow" alt="Hugging Face">
+  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-GPT2--Indo--Chat-yellow" alt="Hugging Face">
 </a>
 
-[![Colab](https://img.shields.io/badge/Colab-Free%20GPU%20T4-orange?logo=googlecolab)](https://colab.research.google.com/)
+[![Colab](https://img.shields.io/badge/Colab-Free%20T4%20GPU-orange?logo=googlecolab)](https://colab.research.google.com/)
 
 # GPT-2 Indonesian Chat Instruct-Tuned Model
 
