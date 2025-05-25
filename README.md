@@ -1,5 +1,7 @@
-[![Model on HuggingFace](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/IzzulGod/gpt2-indo-chat-instruct-tuned)
- 
+<a href="https://huggingface.co/IzzulGod/gpt2-indo-chat-instruct-tuned">
+  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-gpt2--indo--chat-yellow" alt="Hugging Face">
+</a>
+
 # GPT-2 Indonesian Chat Instruct-Tuned Model
 
 An Indonesian conversational AI model fine-tuned from `GPT2-Small` using instruction-following techniques to enable chat-like interactions.
