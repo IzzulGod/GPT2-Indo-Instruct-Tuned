@@ -104,7 +104,7 @@ The model was fine-tuned using LoRA (Low-Rank Adaptation) with aggressive parame
 **LoRA Configuration:**
 - `r`: 64 (rank)
 - `lora_alpha`: 128
-- `target_modules`: `["c_attn", "c_proj", "mlp.c_fc", "mlp.c_proj"]`
+- `target_modules`: ["c_attn", "c_proj", "mlp.c_fc", "mlp.c_proj"]
 - `lora_dropout`: 0.05
 - `bias`: "none"
 
