@@ -1,20 +1,20 @@
-<a href="https://huggingface.co/IzzulGod/GPT2-Indo-chat-tuned">
-  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-GPT2--Indo--Chat-yellow" alt="Hugging Face">
+<a href="https://huggingface.co/IzzulGod/GPT2-Small-Indonesian">
+  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-GPT2--Small--Indo-yellow" alt="Hugging Face">
 </a>
 
 [![Colab](https://img.shields.io/badge/Colab-T4%20GPU%20(Free)-orange?logo=googlecolab)](https://colab.research.google.com/)
 
-# GPT-2 Indonesian Chat Instruct-Tuned Model
+# GPT2-Small Indonesian Chat Instruct-Tuned Model
 
-An Indonesian conversational AI model fine-tuned from `GPT2-Small` using instruction-following techniques to enable chat-like interactions.
+An Indonesian conversational AI model fine-tuned from `GPT2-Small(124M Parameters)` using instruction-following techniques to enable chat-like interactions.
 
 ## 📋 Model Overview
 
 This model transforms a base Indonesian GPT-2 text generator into a conversational chatbot capable of following instructions and engaging in question-answering dialogues in Bahasa Indonesia.
 
-- **Base Model**: `cahya/gpt2-small-indonesian-522M`
-- **Fine-tuning Method**: LoRA (Low-Rank Adaptation)
-- **Dataset**: `FreedomIntelligence/evol-instruct-indonesian`
+- **Base Model**: `GPT2-Small`
+- **Fine-tuning Method**: SFT-LoRA (merged adapter)
+- **Dataset**: `indonesian-nlp/wikipedia-id`, `FreedomIntelligence/evol-instruct-indonesian`
 - **Language**: Indonesian (Bahasa Indonesia)
 - **Task**: Conversational AI / Chat Completion
 
@@ -41,7 +41,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # Load model and tokenizer
-model_path = "IzzulGod/GPT2-Indo-chat-tuned"
+model_path = "IzzulGod/GPT2-Small-Indonesian"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(model_path).to(device)
 
@@ -82,7 +82,7 @@ AI: Presiden pertama Indonesia adalah Soekarno. Sukarno dikenal sebagai seorang 
 
 ### Dataset
 
-The model was trained on the `FreedomIntelligence/evol-instruct-indonesian` dataset, which contains conversational data in the following format:
+This model was trained on a dataset containing conversation data in the following format:
 
 ```json
 [
@@ -163,10 +163,10 @@ AI:
 
 ## ⚠️ Limitations
 
-- **Knowledge Base**: The base model was trained primarily on Wikipedia data by [Cahya](https://huggingface.co/cahya), providing general factual knowledge but limited real-world conversational patterns
+- **Knowledge Base**: The base model was trained primarily on Wikipedia data `indonesian-nlp/wikipedia-id` by [Cahya](https://huggingface.co/cahya), providing general factual knowledge but limited real-world conversational patterns
 - **Training Data Scope**: Current fine-tuning focuses on general instruction-following and Q&A rather than natural daily conversations
 - **Conversational Style**: Responses may feel formal or academic due to the Wikipedia-based foundation and instruction-tuned nature
-- **Model Size**: Relatively small (124M parameters), which may limit complex reasoning capabilities
+- **Model Size**: Relatively small (124M Parameters), which may limit complex reasoning capabilities
 - **Factual Accuracy**: Responses are generated based on training data and may not always be factually accurate or up-to-date
 - **Language Optimization**: Best performance is achieved with Indonesian language inputs
 - **Response Consistency**: May occasionally generate repetitive or inconsistent responses
@@ -183,21 +183,16 @@ For enhanced conversational naturalness, consider:
 
 This model is released under the MIT License. See the LICENSE file for details.
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
 ## 📚 Citation
 
 If you use this model in your research or applications, please cite:
 
 ```bibtex
 @misc{izzulgod2025gpt2indochat,
-  title     = {GPT-2 Indonesian Chat Instruct-Tuned Model},
+  title     = {GPT2-Small Indonesian Chat Instruct-Tuned Model},
   author    = {IzzulGod},
   year      = {2025},
-  howpublished = {\url{https://huggingface.co/IzzulGod/GPT2-Indo-chat-tuned}},
-  note      = {Fine-tuned version of cahya/gpt2-small-indonesian-522M}
+  howpublished = {\url{https://huggingface.co/IzzulGod/GPT2-Small-Indonesian}},
 }
 ```
 ---
