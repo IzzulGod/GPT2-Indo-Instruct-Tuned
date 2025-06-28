@@ -14,7 +14,7 @@ This model transforms a base Indonesian GPT-2 text generator into a conversation
 
 - **Base Model**: `GPT2-Small`
 - **Fine-tuning Method**: SFT-LoRA (merged adapter)
-- **Dataset**: `indonesian-nlp/wikipedia-id`, `FreedomIntelligence/evol-instruct-indonesian`
+- **Dataset**: `indonesian-nlp/wikipedia-id`, `FreedomIntelligence/evol-instruct-indonesian`, `FreedomIntelligence/sharegpt-indonesian`
 - **Language**: Indonesian (Bahasa Indonesia)
 - **Task**: Conversational AI / Chat Completion
 
@@ -44,9 +44,9 @@ inputs = tokenizer(prompt, return_tensors="pt").to(device)
 with torch.no_grad():
     outputs = model.generate(
         **inputs,
-        max_new_tokens=50,
+        max_new_tokens=128,
         do_sample=True,
-        temperature=0.6,
+        temperature=0.7,
         top_p=0.95,
         repetition_penalty=1.2,
         pad_token_id=tokenizer.eos_token_id
@@ -155,7 +155,7 @@ AI:
 
 ## ⚠️ Limitations
 
-- **Knowledge Base**: The base model was trained primarily on Wikipedia data `indonesian-nlp/wikipedia-id` by [Cahya](https://huggingface.co/cahya), providing general factual knowledge but limited real-world conversational patterns
+- **Knowledge Base**: The base model was trained primarily on Wikipedia data: `indonesian-nlp/wikipedia-id` by [Cahya](https://huggingface.co/cahya), providing general factual knowledge but limited real-world conversational patterns
 - **Training Data Scope**: Current fine-tuning focuses on general instruction-following and Q&A rather than natural daily conversations
 - **Conversational Style**: Responses may feel formal or academic due to the Wikipedia-based foundation and instruction-tuned nature
 - **Model Size**: Relatively small (124M Parameters), which may limit complex reasoning capabilities
