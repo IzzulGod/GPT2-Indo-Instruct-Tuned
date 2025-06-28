@@ -24,14 +24,6 @@ This model was fine-tuned as part of my personal learning journey in AI and LLMs
 
 ## 🚀 Quick Start
 
-### Installation
-
-```bash
-pip install transformers torch
-```
-
-### Basic Usage
-
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
