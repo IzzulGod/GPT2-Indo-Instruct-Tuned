@@ -210,20 +210,6 @@ AI: [Expected response starts here]
 
 This model is released under the MIT License, Please see the LICENSE file for complete terms.
 
-## 📚 Citation
-
-If you use this model in your research or applications, please cite:
-
-```bibtex
-@misc{izzulgod2025gpt2indochat,
-  title={GPT2-Small Indonesian Instruct-Tuned Model},
-  author={IzzulGod},
-  year={2025},
-  howpublished={\url{https://huggingface.co/IzzulGod/GPT2-Indo-Instruct-Tuned}},
-  note={Indonesian conversational AI model fine-tuned for instruction following}
-}
-```
-
 ## 🙏 Acknowledgments
 
 - **Base Model**: Thanks to [Cahya](https://huggingface.co/cahya) for the Indonesian GPT-2 base model
