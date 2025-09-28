@@ -1,4 +1,4 @@
-<a href="https://huggingface.co/IzzulGod/GPT2-Indo-Instruct-Tuned">
+<a href="https://huggingface.co/izzulgod/gpt2-indo-instruct-tuned">
   <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-GPT2--Small--Indo-yellow" alt="Hugging Face">
 </a>
 
@@ -48,7 +48,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # Load model and tokenizer
-model_path = "IzzulGod/GPT2-Indo-Instruct-Tuned"  
+model_path = "izzulgod/gpt2-indo-instruct-tuned"  
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(model_path).to(device)
 
